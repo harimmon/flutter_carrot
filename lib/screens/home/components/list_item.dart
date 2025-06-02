@@ -33,6 +33,7 @@ class ListItem extends StatelessWidget {
                   Text("${p.address} • ${p.publishedAt} "),
                   // Text("${formatToMoney(p.price)}"),
                   Text("${p.price.toMoney()}원"),
+                  Spacer(),
                   Row(
                     children: [
                       Spacer(),
